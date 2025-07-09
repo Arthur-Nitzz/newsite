@@ -1,0 +1,817 @@
+{
+  "General": {
+    "Slogan": "Autonomous cloud employees",
+    "Label-Email": "Email",
+    "Label-Password": "Password",
+    "Label-Username": "Username",
+    "Button-Continue": "Continue",
+    "Button-Confirm": "Confirm",
+    "Button-Cancel": "Cancel",
+    "Button-Delete": "Delete",
+    "Button-Back": "Back",
+    "Button-GoBack": "Go back",
+    "Button-GoBackToHome": "Back to homepage",
+    "Button-Send": "Send",
+    "Button-Submit": "Submit",
+    "Button-Download": "Download",
+    "Button-SaveChanges": "Save",
+    "Button-SaveChangesLong": "Save",
+    "Button-Change": "Change",
+    "Label-Weekly": "weekly",
+    "Label-Monthly": "monthly",
+    "Label-Yearly": "yearly",
+    "Label-Message": "Message",
+    "Label-MainInput-Placeholder": "Ask something",
+    "Label-Search": "Search...",
+    "Label-Reset": "Reset",
+    "Label-Login": "Login",
+    "Label-Logout": "Logout",
+    "Label-To": "to",
+    "Label-Loading": "Loading",
+    "Label-Saving": "Saving"
+  },
+
+  "Space": {
+    "AppBar": {
+      "Button-FirstApp": "Install your first app"
+    },
+    "Maintenance": {
+      "Title": "Maintenance",
+      "Description": "The workspace is currently in maintenance mode. Please come back later."
+    },
+    "UserDisabled": {
+      "Title": "Your account is currently disabled",
+      "Description": "If you think this is an error, please contact our support."
+    },
+    "SpaceNotAllocated": {
+      "Title": "Your workspace is being started",
+      "Description": "Please wait a moment. You will be redirected automatically."
+    },
+    "MainInput": {
+      "Toast-AssistantStopped": "Assistant was stopped"
+    }
+  },
+
+  "Errors": {
+    "Required": "This field is required",
+    "InvalidEmail": "Please enter a valid email address",
+    "InvalidEmail-Min": "3 characters minimum",
+    "InvalidEmail-Max": "254 characters maximum",
+    "InvalidPassword-Min": "8 characters minimum",
+    "InvalidPassword-Max": "64 characters maximum",
+
+    "General": "Unknown error occurred",
+    "NetworkError": "Network error occured",
+    "GraphQLError": "Error occurred while fetching data",
+
+    "Login": {
+      "General": "Error occurred during login",
+      "InvalidCredentials": "Invalid credentials",
+
+      "Toast": {
+        "FailedToLogin": "Error trying to login"
+      }
+    },
+
+    "Logout": {
+      "General": "Logout failed. Please try again later."
+    },
+
+    "Signup": {
+      "General": "Error occurred while signing up",
+      "EmailExists": "User with that email already exists"
+    },
+
+    "ResetPassword": {
+      "General": "Error occurred while resetting password",
+      "SendingEmail": "Error occurred while sending reset email"
+    },
+
+    "Payment": {
+      "General": "Error occurred while processing payment",
+      "Checkout": "Error occurred while creating checkout session"
+    },
+
+    "Assistant": {
+      "Unknown": "Unexpected error occurred",
+      "MainLoopTooManyErrors": "The assistant has paused due to multiple errors. Please review your input and attempt again.",
+      "MainLoopTooManyInvokeAssistantActions": "The assistant has been temporarily halted to prevent an infinite loop. Please take a moment to reassess your actions and try again."
+    },
+
+    "VirtualDesktop": {
+      "Connection": {
+        "Title": "Connection issues",
+        "Description": "The app is trying to reconnect. If the problem persists, try to restart it or contact our support."
+      },
+      "Microphone": {
+        "Title": "Microphone issues",
+        "Description": "Please check your microphone and try again. Please reload the page afterwards."
+      }
+    },
+
+    "ErrorBoundary": {
+      "Title": "An error occurred",
+      "Description": "There was an error trying to load the content. Please try again.",
+      "Button": "Reload the page"
+    },
+
+    "UserSettings": {
+      "Toast": {
+        "FailedToUpdateAssistant": "Error updating your assistant",
+        "FailedToArchiveSpace": "Error archiving your workspace",
+        "FailedToUnarchiveSpace": "Error unarchiving your workspace",
+        "FailedToDeleteSpace": "Error deleting your workspace"
+      }
+    },
+
+    "SetupAssistant": {
+      "Toast": {
+        "FailedToUpdateSpace": "Error updating your workspace",
+        "FailedToCreateSpace": "Error creating your workspace"
+      }
+    },
+
+    "LiveChat": {
+      "Toast": {
+        "FailedToSendMessage": "Error sending your message"
+      }
+    },
+
+    "BugReport": {
+      "Toast": {
+        "FailedToCreateBugReport": "Error creating your bug report"
+      }
+    },
+
+    "AppBar": {
+      "Toast": {
+        "FailedToUninstallApp": "Error uninstalling the app"
+      }
+    },
+
+    "AppStore": {
+      "Toast": {
+        "FailedToInstallApp": "Error installing the app"
+      }
+    }
+  },
+
+  "SpeechRecognition": {
+    "NotSupported": {
+      "Title": "Speech recognition not supported"
+    }
+  },
+
+  "Login": {
+    "Button-ResetPassword": "Reset password",
+    "Button-NoAccount": "Don't have an account yet? Sign up",
+    "Button-BackToLogin": "Back to login",
+    "Login-Invalid-Email": "Please enter a valid email address",
+    "Login-Invalid-Password": "Password must be at least 8 characters long"
+  },
+
+  "Logout": {
+    "Title": "You are currently logged in"
+  },
+
+  "Signup": {
+    "Title": "Create an account",
+    "Button-Signup": "Sign up",
+    "Button-Login": "Already have an account? Login",
+    "Info": "By registering, you agree to the Terms and Conditions and the Privacy Policy",
+
+    "Preregister": {
+      "Title": "Join our waitlist",
+      "Description": "We are currently in a beta phase. If you want to be notified when we launch, please preregister below.",
+      "Button": "Submit",
+
+      "Success": {
+        "Title": "Signup successful",
+        "Socials": "Feel free to follow us on our socials",
+
+        "EmailVerified": {
+          "Title": "You are on the waitlist",
+          "Description": "We will notify you as soon as we launch."
+        },
+
+        "EmailNotVerified": {
+          "Title": "Your email is not verified yet",
+          "Description": "We've sent a verification email. Please verify your email address to join the waitlist."
+        },
+
+        "VerifyEmail": {
+          "BeforeText": "Please verify your email within the next",
+          "AfterText": "minutes. Afterwards, we will add you to the waitlist"
+        }
+      }
+    }
+  },
+
+  "ResetPassword": {
+    "Title": "Reset your Password",
+    "Button-SendEmail": "Send email",
+    "Button-Reset": "Reset password",
+    "Info": "After entering your email, you will receive a link to reset your password.",
+    "Title-Success-Email": "Email was sent.",
+    "Description-Success-Email": "Check your email inbox for a link to reset your password.",
+    "Time-Remaining-Email": "Time remaining to verify",
+    "Title-Success-Password": "Your password was reset.",
+    "Description-Success-Password": "Your password has been updated. Redirecting to login..."
+  },
+
+  "SetupAssistant": {
+    "Title": "Setup a new workspace",
+    "Label-Selected": "Selected",
+    "Button-CreateSpace": "Continue with"
+  },
+
+  "LandingPage": {
+    "Hero-WelcomeBack": "Welcome back",
+    "Hero-Button": "Join waitlist",
+    "Hero-Description": "warmwind is your all in one solution, when it comes to AI employees. No more tool chaos - everything in the cloud.",
+    "Button-GoToMySpace": "My workspace",
+
+    "Walkthrough": {
+      "Title": "The first cloud employee",
+      "Description": "Uses all your apps for you.",
+      "Step1": "First you create your personal workspace.",
+      "Step2": "Then, install your apps from our App Store.",
+      "Step3": "And finally - tell your assistant to run the show."
+    }
+  },
+
+  "Media": {
+    "Title": "Press image library",
+    "Description": "Free use with source attribution.",
+    "Button": "View resources",
+    "Quote": {
+      "Paragraph-1": "warmwind OS is the world’s first AI-native operating system built to unify, simplify, and humanize the age of artificial intelligence.",
+      "Paragraph-2": "We are ending the chaos of thousands of fragmented AI tools and replacing it with one intuitive system that empowers individuals and businesses to harness the full potential of artificial intelligence. By letting AI act independently across apps, platforms, and devices through a visually explorable environment, warmwind OS becomes the new operating layer for future humanity - transparent, powerful, and personal.",
+      "Paragraph-3": "Our mission is to make advanced AI feel like magic, but work like infrastructure: invisible when you want it, indispensable when you need it."
+    }
+  },
+
+  "Usecases": {
+    "Title": "warmwind can be everything",
+
+    "Subtitle": {
+      "Start": "And can run",
+      "End": "apps"
+    },
+
+    "SocialMedia": {
+      "Title": "Social Media Growth Manager",
+      "Description": "warmwind independently scans current trends, automatically creates posts including graphics and videos, schedules them optimally, and continuously analyzes their performance. Completely autonomous and active around the clock, your marketing team can focus on more strategic tasks."
+    },
+
+    "CustomerSupport": {
+      "Title": "Customer Support",
+      "Description": "warmwind handles all customer inquiries completely independently – whether via email, chat, WhatsApp, or social media. She finds order information, answers FAQs, resolves problems independently, and only delegates complex, special cases to the human team."
+    },
+
+    "CompetitionMonitoring": {
+      "Title": "Proactive Competition Monitoring",
+      "Description": "warmwind monitors your competitors' social media accounts and automatically creates reports on their activities. This allows you to stay ahead of the curve and always be one step ahead of your competitors."
+    },
+
+    "Accounting": {
+      "Title": "Accounting & Invoice Management",
+      "Description": "warmwind automatically recognizes invoices, extracts data, reconciles them with purchase orders, logs transactions, and independently reminds you of payments. Monthly financial statements are ready for management – ​​completely without manual intervention."
+    },
+
+    "Recruiting": {
+      "Title": "Recruiting Assistant",
+      "Description": "warmwind independently screens applications, checks CVs and social media profiles, conducts initial interviews via video chat, and automatically evaluates candidates. The HR team receives only a top selection of the most qualified applicants."
+    },
+
+    "WebsiteMonitoring": {
+      "Title": "Website and Product Monitoring",
+      "Description": "warmwind continuously monitors the health of your website, analyzes visitor flows, detects errors, downtimes, and issues, and automatically reports anomalies to developers, ensuring a consistently optimal user experience."
+    },
+
+    "InnovationScout": {
+      "Title": "Innovation Scout",
+      "Description": "Every day, warmwind scours the web for innovative technologies, relevant startups, market trends, and inspiring best practices. An automatically generated innovation report is available every morning just in time for breakfast – perfect for strategic decision-making."
+    },
+
+    "Scaling": {
+      "Title": "Designed for 1, ready for 1000",
+      "Description": "Set up one workspace. Then ten. Then 1000. warmwind lets you start small and scale fast - from simple workflows to full-on company-wide automation."
+    }
+  },
+
+  "PricingCard": {
+    "Title": "Get your first cloud employee.",
+    "Badge": "Try it out now",
+    "Pricing": "/ week per seat",
+    "Action": "Start now",
+    "Total": "/ week in total",
+    "Features": {
+      "Feature-1": "Instant access",
+      "Feature-2": "Unlimited usage",
+      "Feature-3": "Cancellable any time"
+    }
+  },
+
+  "SectionComparison": {
+    "Title": "What makes us unique",
+
+    "Other": {
+      "Title": {
+        "One": "& Other... using",
+        "Two": "console and MCP"
+      },
+      "List": {
+        "Item-1": "Can’t use real world applications",
+        "Item-2": "Requires programming knowledge"
+      }
+    },
+
+    "Warmwind": {
+      "Title": {
+        "One": "Works like a human using",
+        "Two": "mouse",
+        "Three": "and",
+        "Four": "keyboard"
+      },
+      "List": {
+        "Item-1": "Can see and interact with actual applications",
+        "Item-2": "You don’t need to be a developer"
+      }
+    }
+  },
+
+  "SectionCareers": {
+    "Title": "Start a career at warmwind",
+    "Description": "Excited to shape the future of AI? Become part of our team. We’re looking forward to hearing from you!",
+    "Button": "Apply now"
+  },
+
+  "SectionLatestPosts": {
+    "Title": "See our latest posts",
+    "Button": "See all posts",
+    "Error": "Error loading posts"
+  },
+
+  "SectionGetStarted": {
+    "Title": "How to get started",
+    "Subtitle": "Quickly learn how to setup your first workspace and start automating.",
+    "Label-Youtube": {
+      "Start": "Watch the full video on our",
+      "End": "YouTube channel"
+    }
+  },
+
+  "WebsiteFooter": {
+    "Description": "Experience a new way of using AI",
+    "Button": "Join waitlist"
+  },
+
+  "WebsiteMenu": {
+    "Home": "Home",
+    "Usecases": "Usecases",
+    "Comparison": "Competition",
+    "Careers": "Careers",
+    "Media": "Media",
+    "GetStarted": "Live Demo",
+    "PrivacyPolicy": "Privacy",
+    "LegalNotice": "Legal notice",
+    "OpenSourceLicenses": "Licenses",
+    "Blog": "Blog"
+  },
+
+  "AppStore": {
+    "Title-AppStore": "App Store",
+    "Title-Installed": "Installed Apps",
+    "Title-Requests": "App Requests",
+    "Button-Requests-All": "All requests",
+    "Button-Requests-MyRequests": "My requests",
+    "Button-FirstPage": "First page",
+    "Button-LastPage": "Last page",
+    "Button-Overview": "Overview",
+    "Button-Installed": "Installed",
+    "Button-Explore": "Explore apps",
+    "NoApps": "No apps installed yet. Explore our app store to find the perfect app for your workspace.",
+    "Toast-Limit-Message": "You reached the maximum number of installed apps (25). Uninstall some apps before installing a new one."
+  },
+
+  "UserSettings": {
+    "Title-Account": "Account",
+    "Title-LoginManager": "Logins",
+    "Title-Workspaces": "Workspaces",
+    "Title-Payment": "Payment",
+    "Title-Settings": "Workspace settings",
+    "Title-Archived": "Archived workspaces",
+    "Title-Avatar": "Change avatar",
+    "Title-Delete": "Delete workspace",
+    "Title-Archive": "Archive workspace",
+    "Title-LoginManagerForm": "Login data",
+    "Title-LoginManagerDelete": "Delete login",
+    "Title-LoginManagerFormAccess": "Security settings",
+    "Title-Bugreport": "Bug report",
+    "Title-BugreportSuccess": "Bug report successful",
+    "Title-Livechat": "Live Chat",
+    "Title-Logout": "Logout",
+
+    "Sidebar-Label-Personal": "Personal information",
+    "Sidebar-Label-Support": "Support",
+
+    "Button-UnusedWorkspace": "Unused workspace",
+    "Button-NewWorkspace": "New workspace",
+
+    "Account-Avatar-Label": "Profile picture",
+    "Account-Avatar-FileFormat": "PNG, JPG under 1MB",
+    "Account-Avatar-Button-Upload": "New picture",
+    "Account-Avatar-Button-Delete": "Delete",
+    "Account-Title-Address": "Address & location",
+    "Account-Title-PersonalInfo": "Personal information",
+    "Account-Label-FirstName": "First name",
+    "Account-Label-LastName": "Last name",
+    "Account-Label-Birthday": "Birthday",
+    "Account-Label-PhoneNumber": "Phone number",
+    "Account-Label-Password-Current": "Current password",
+    "Account-Label-Password-New": "New password",
+    "Account-Label-Country": "Country",
+    "Account-Label-DisplayLanguage": "Display language",
+    "Account-Label-Address": "Address",
+    "Account-Label-City": "City",
+    "Account-Label-PostalCode": "Postal code",
+    "Account-Label-WhatDoesTheUserWantToAutomate": "What do you want to automate?",
+    "Account-Label-WhatAppsAreNecessaryToAutomate": "Which apps are necessary to accomplish this?",
+    "Account-Button-ResendVerificationEmail": "Send again",
+    "Account-Button-EmailSent": "Email sent",
+    "Account-Email-NotVerified": "Not verified",
+
+    "Account-DangerZone-Description": "If you want to permanently delete your account, press the button.",
+    "Account-DangerZone-Button": "Delete account",
+    "Account-DeleteAccount-Title": "Are you sure you want to delete your account?",
+    "Account-DeleteAccount-Description": "This action is irreversible. Make sure to save your data otherwise, before confirming.",
+    "Account-DeleteAccount-Button": "Delete account",
+    "Account-DeleteAccount-Success": "Your account has been deleted.",
+    "Account-DeleteAccount-Error": "Error trying to delete your account. Please try again later.",
+
+    "Account-Toast-Password-Success": "Your password was updated.",
+    "Account-Toast-Password-Error": "Failed to update password. Please check your current password.",
+    "Account-Toast-Save-Success": "Account settings were updated.",
+    "Account-Toast-Save-Error": "Failed to update account settings",
+    "Account-Toast-Avatar-Error": "Failed to update avatar",
+    "Account-Toast-Avatar-Error-Filesize": "File size must be less than 1MB",
+    "Account-Toast-VerificationEmail-Sent": "Verification email sent - Check your inbox.",
+    "Account-Toast-VerificationEmail-Sent-Long": "We've sent a verification email to your current mail. Please verify your email address to continue.",
+    "Account-Toast-VerificationEmail-Error": "Failed to send verification email",
+
+    "LoginManager-AddLogin": "Add new login",
+    "LoginManager-Label-CreateNew": "Create new login",
+    "LoginManager-Label-Spaces": "Select the workspaces you want to authorize",
+    "LoginManager-Label-Apps": "For which app do you want to create a login?",
+    "LoginManager-Label-LoginName": "Email or username",
+    "LoginManager-Label-LoginDetails": "Add your login details",
+    "LoginManager-Title-Data": "Login data",
+
+    "LoginManager-Label-CurrentSpace": "Current workspace",
+    "LoginManager-Label-SelectAll": "Select All",
+    "LoginManager-Label-GeneralLogin": "Create general login for apps from",
+    "LoginManager-Button-Save": "Save login data",
+    "LoginManager-Success-Title": "Login was created.",
+    "LoginManager-Success-Description": "You will shortly be redirected back to your login manager.",
+    "LoginManager-Title-Delete": "Are you sure you want to delete this login?",
+    "LoginManager-Description-Delete": "This action is irreversible. Make sure to save your data otherwise, before confirming.",
+    "LoginManager-Button-Delete": "Delete login data",
+    "LoginManager-Toast-Success": "Login data saved",
+    "LoginManager-Toast-Error": "Login data could not be saved",
+    "LoginManager-Toast-Deleted": "Login data deleted",
+
+    "Workspaces-Button-Archive": "Archive",
+    "Workspaces-Button-Delete": "Delete",
+    "Workspaces-Button-Restore": "Restore",
+
+    "Workspaces-Label-Archive-Description": "You can restore this workspace within 30 days.",
+    "Workspaces-Label-Delete-Description-Long": "Are you sure you want to delete this workspace? All associated data will be permanently deleted.",
+    "Workspaces-Title-Empty": "You currently have no active workspaces.",
+    "Workspaces-Description-Empty-HasSubscription": "Because you have an active subscription with available seats, you can create a new one.",
+    "Workspaces-Description-Empty-NoSubscription": "Before creating a new workspace, you need to have an active subscription.",
+    "Workspaces-Button-Empty-HasSubscription": "Create new space",
+    "Workspaces-Button-Empty-NoSubscription": "Continue to stripe",
+
+    "Workspaces-List-Title": "My workspaces",
+    "Workspaces-List-Title-Archived": "Archived workspaces",
+
+    "Workspaces-Archived-Label": "Archived on",
+
+    "Toast-ArchivedSpace": "Your workspace has been archived",
+    "Toast-DeletedSpace": "Your workspace has been deleted",
+
+    "Settings-Button-ShowArchived": "Show archived",
+
+    "Payment-Button-Invoices": "See invoice details",
+    "Payment-Label-NextPayment": "Next payment",
+    "Payment-Label-BilledWeekly": "billed weekly",
+    "Payment-Label-Workspaces": "Workspaces",
+    "Payment-Label-DueOn": "Due on",
+    "Payment-Label-TerminatedOn": "Subscription will end on",
+    "Payment-Label-Gifted": "gifted",
+    "Payment-Label-GiftCardDisclaimer": "After cancellation, you will still have access to your gift card subscription until it expires.",
+
+    "Payment-Button-CancelSubscription": "Cancel subscription",
+    "Payment-Button-ResumeSubscription": "Resume subscription",
+    "Payment-Button-UpdateSubscription": "Change amount",
+    "Payment-Toast-Error-CancelSubscription": "Failed to cancel your subscription",
+    "Payment-Toast-Error-ResumeSubscription": "Failed to resume your subscription",
+    "Payment-Toast-Success-CancelSubscription": "Your subscription has been canceled",
+    "Payment-Toast-Success-ResumeSubscription": "Your subscription has been resumed",
+
+    "Payment-Dialog": {
+      "ArchiveSpaces": "Changing your workspace count will automatically archive some of your workspaces to match your new workspace limit. Do you want to continue?",
+      "CancelSubscription": "Are you sure you want to cancel your subscription? You can always resume it later.",
+      "ResumeSubscription": "Are you sure you want to resume your subscription? You can always cancel it later."
+    },
+
+    "Payment-GiftCard": {
+      "Title-GiftCard": "Gift Card Subscription",
+      "Label-Description": "You are using a gift card subscription. After it expires, your workspaces will be automatically archived. You can always switch to a regular subscription.",
+      "Label-EndDate": "Ends on",
+      "Button-Checkout": "Upgrade subscription"
+    }
+  },
+
+  "BugReport": {
+    "Title-Form": "Bug report",
+    "Title-ReportSuccessful": "Report successful",
+    "Label-Description": "Please provide a short description of your issue(s)",
+    "Label-Severity": "Rate the severity of the issue",
+    "Label-Frequency": "How often does the bug appear?",
+    "Label-Screenshot": "Upload a screenshot",
+    "Label-UploadFile": "Drag & drop your files here or",
+    "Label-FileFormat": "Only .jpg and .png files. 1MB max file size.",
+    "Severity": {
+      "trivial": "Trivial",
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "Label-ReproductionSteps": "How can we reproduce the bug?",
+    "Label-ReproductionSteps-Bottom": "Give us a step by step description to follow.",
+    "Frequency": {
+      "everytime": "Everytime",
+      "occasionally": "Occasionally"
+    },
+    "CheckboxLabel": "I have installed all necessary apps for my assistant to solve the given task.",
+    "Button-Submit": "Submit report",
+    "Success-Heading": "Thanks for your report!",
+    "Success-Description": "You will be redirected back to the form."
+  },
+
+  "PopupLogout": {
+    "Title": "You signed out of your account",
+    "Description": "The page will reload automatically."
+  },
+
+  "Livechat": {
+    "Livechat-Header": "Live Chat",
+    "Livechat-ConnectedWith": "Connected with a supporter"
+  },
+
+  "AssistantArea": {
+    "ConnectionLost": {
+      "Title": "Connection lost",
+      "Description": "Trying to reconnect to your assistant. This may take a few seconds."
+    },
+    "Label-ShowFullChat": "Show history",
+    "Label-Instruct": "Last instruction"
+  },
+
+  "ErrorPage": {
+    "404": {
+      "Title": "The page you're looking for can't be found.",
+      "Button": "Homepage"
+    },
+    "BackendDown": {
+      "Title": "Server Unavailable",
+      "Paragraph": "We are currently experiencing issues with our servers. Please try again later.",
+      "Button": "Retry Connection"
+    },
+    "General": {
+      "Title": "An error occurred",
+      "Description": "There was an issue while loading this page. Please try again later.",
+      "Button": "Reload page"
+    }
+  },
+
+  "FrontendError": {
+    "Title": "Error occured in your space",
+    "Paragraph": "There was an unknown issue in your space. We were notified and working on it. Please try again later.",
+    "Button": "Retry Connection"
+  },
+
+  "VerifyEmail": {
+    "Title": "Your account was verified",
+    "Button-Login": "Login",
+    "Button-Workspace": "Go to my workspace",
+    "Button-FinishRegistration": "Finish registration",
+
+    "Error": {
+      "Title": "Verification failed",
+      "Description": "Please contact our support if the problem persists.",
+      "Button": "Back to homepage"
+    },
+
+    "Label-GmailIssue": "We have sent you a confirmation email. Gmail is currently delaying our email delivery. We are already working on a solution. Thank's for your understanding",
+
+    "CollectUserData": {
+      "EmailVerified": "Email verified",
+      "Title": "Finish your registration",
+      "Description": "Please provide some additional information to finish your registration",
+      "Button": "Continue"
+    }
+  },
+
+  "FirstApp": {
+    "Title": "Welcome",
+    "Description": "in your new workspace.",
+    "Button": "Browse apps"
+  },
+
+  "Input-FileUpload": {
+    "Label": "Drag and drop your files here or",
+    "Button": "Choose files",
+    "FileFormat": "Only .jpg and .png files. 1MB max file size."
+  },
+
+  "UserInput": {
+    "AppInstall": {
+      "Title": "Your action is required",
+      "Description": "In order to fulfill your task, you need to install the following apps:"
+    },
+    "PasswordPrompt": {
+      "Title": "Account login",
+      "Description": "Please provide your password to continue."
+    }
+  },
+
+  "LearningMode": {
+    "Active": "Learning",
+    "Transcribing": "Saving step",
+    "Click": "Click",
+    "Listening": "Voice input enabled",
+    "NotListening": "Voice input disabled",
+    "Button-Enter": "Start",
+    "Button-Teach": "Teach",
+    "Button-Interaction": "Finish",
+    "Label-Finished": "Knowledge was saved.",
+    "Popup": {
+      "Title": "Learning mode",
+      "Step1": "Your assistant is listening. Voice-moderate what you are doing before each click you're taking."
+    }
+  },
+
+  "OpenApps": {
+    "Label-ClickToInterrupt": "Click to interrupt assistant"
+  },
+
+  "NativeApps": {
+    "Timers": {
+      "Label-EndsOn": "Ends on",
+      "Title-NewTimer": "Create new timer",
+      "Label-Task": "What should your assistant do when the timer is up?",
+      "Label-Name": "Timer name",
+      "Button-NewTimer": "Create new timer",
+      "Button-CreateNewTimer": "Create timer",
+      "Button-DeleteTimer": "Delete timer",
+      "Label-OneTime": "One-time",
+      "Label-Interval": "Interval",
+      "Label-Repeat": "Frequency",
+      "Label-Every": "Every",
+      "Label-Now": "Now",
+      "Label-StartDate": "Start date",
+      "Label-FirstExecution": "First execution on",
+      "Label-NextRun": "Next run",
+      "Label-AtDate": "At date",
+      "Label-EndsAt": "Ends at",
+      "Label-EndedOn": "Timer ended on",
+      "Label-OnlyOn": "Every",
+      "Label-NotAfterDate": "End execution on",
+      "Label-TimeRange": "Time range",
+      "Label-To": "to",
+      "Label-LeaveEmpty": "Optional, default is every day",
+
+      "Units": {
+        "Minutes": "minutes",
+        "Hours": "hours",
+        "Days": "days",
+        "Weeks": "weeks",
+        "Months": "months",
+        "Year": "years"
+      },
+
+      "Units-Repeat": {
+        "Once": "once",
+        "Minutes": "minutely",
+        "Hours": "hourly",
+        "Days": "daily",
+        "Weeks": "weekly",
+        "Months": "monthly",
+        "Year": "yearly"
+      },
+
+      "Weekdays": {
+        "Monday": "Mon",
+        "Tuesday": "Tue",
+        "Wednesday": "Wed",
+        "Thursday": "Thu",
+        "Friday": "Fri",
+        "Saturday": "Sat",
+        "Sunday": "Sun"
+      },
+
+      "Months": {
+        "Month-1": "Jan",
+        "Month-2": "Feb",
+        "Month-3": "Mar",
+        "Month-4": "Apr",
+        "Month-5": "May",
+        "Month-6": "Jun",
+        "Month-7": "Jul",
+        "Month-8": "Aug",
+        "Month-9": "Sep",
+        "Month-10": "Oct",
+        "Month-11": "Nov",
+        "Month-12": "Dec"
+      }
+    }
+  },
+
+  "Payment": {
+    "NoSubscription": {
+      "NotPreregistered": {
+        "Title": "You currently have no active subscription",
+        "Paragraph": "If you want to use warmwind, you need to have an active subscription.",
+        "Button": "Continue to Stripe"
+      },
+      "Preregistered": {
+        "Title": "Subscription not available",
+        "Paragraph": "Because you are preregistered, subscribing is not available for you yet. We will notify you when you can subscribe."
+      }
+    },
+    "Success": {
+      "Title": "Your payment was successful",
+      "Description": "You can now continue with your assistant configuration.",
+      "Button": "Go to my space",
+      "Toast-UpdatingSubscription": "Your subscription information has been updated"
+    },
+    "Error": "There was an error completing your payment"
+  },
+
+  "countries": {
+    "china": "China",
+    "india": "India",
+    "unitedStates": "United States",
+    "indonesia": "Indonesia",
+    "pakistan": "Pakistan",
+    "nigeria": "Nigeria",
+    "brazil": "Brazil",
+    "bangladesh": "Bangladesh",
+    "russia": "Russia",
+    "mexico": "Mexico",
+    "japan": "Japan",
+    "ethiopia": "Ethiopia",
+    "philippines": "Philippines",
+    "egypt": "Egypt",
+    "germany": "Germany",
+    "iran": "Iran",
+    "turkey": "Turkey",
+    "congo": "Congo, Democratic Republic of the",
+    "france": "France",
+    "unitedKingdom": "United Kingdom",
+    "italy": "Italy",
+    "tanzania": "Tanzania",
+    "southAfrica": "South Africa",
+    "kenya": "Kenya",
+    "myanmar": "Myanmar",
+    "southKorea": "Korea, Republic of",
+    "colombia": "Colombia",
+    "spain": "Spain",
+    "uganda": "Uganda",
+    "argentina": "Argentina",
+    "algeria": "Algeria",
+    "sudan": "Sudan",
+    "ukraine": "Ukraine",
+    "iraq": "Iraq",
+    "afghanistan": "Afghanistan",
+    "poland": "Poland",
+    "canada": "Canada",
+    "morocco": "Morocco",
+    "saudiArabia": "Saudi Arabia",
+    "uzbekistan": "Uzbekistan",
+    "peru": "Peru",
+    "malaysia": "Malaysia",
+    "venezuela": "Venezuela",
+    "nepal": "Nepal",
+    "madagascar": "Madagascar",
+    "australia": "Australia",
+    "coteDIvoire": "Côte d'Ivoire",
+    "northKorea": "Korea, Democratic People's Republic of",
+    "cameroon": "Cameroon",
+    "niger": "Niger"
+  }
+}
